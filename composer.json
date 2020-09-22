@@ -32,10 +32,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/dragoszapiet/PHP-Shopify-API-Wrapper"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/dragoszapiet/command"
         }
     ],
