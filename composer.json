@@ -16,7 +16,8 @@
     },
     "require": {
         "php": ">=5.4",
-        "guzzlehttp/guzzle": "~7.0"
+        "guzzlehttp/guzzle": "~7.0",
+        "guzzlehttp/command": "dev-fix-package-issue"
     },
     "autoload": {
         "psr-4": {
@@ -28,5 +29,11 @@
             "Shopify\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dragoszapiet/command"
+        }
+    ],
     "minimum-stability": "stable"
 }
